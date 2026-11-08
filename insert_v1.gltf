@@ -1,0 +1,162 @@
+{
+    "asset": {
+        "generator": "SOLIDWORKSGLTF",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "name": "Default",
+            "nodes": [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "matrix": [
+                0.1553473900617652,
+                0.3993850160135879,
+                0.9035257591152697,
+                0.0,
+                0.6940366140371403,
+                0.6067421981778024,
+                -0.3875268807789081,
+                0.0,
+                -0.7029796346814461,
+                0.6872812480594788,
+                -0.18293200728397968,
+                0.0,
+                -0.21243078718638922,
+                0.2423992456475796,
+                -0.06728317061429145,
+                1.0
+            ],
+            "camera": 0,
+            "name": "current camera"
+        },
+        {
+            "mesh": 0,
+            "name": "insert_v1"
+        }
+    ],
+    "cameras": [
+        {
+            "type": "orthographic",
+            "orthographic": {
+                "xmag": 0.08574733598388891,
+                "ymag": 0.0662593050784596,
+                "zfar": 0.37795276812257017,
+                "znear": 0.28462720892253107
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2
+                    },
+                    "indices": 0,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 1344,
+            "type": "SCALAR",
+            "min": [
+                0
+            ],
+            "max": [
+                651
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 652,
+            "type": "VEC3",
+            "min": [
+                -0.00317499996162951,
+                0.0,
+                -0.022224999964237213
+            ],
+            "max": [
+                0.022224999964237213,
+                0.05079999938607216,
+                0.00317499996162951
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 652,
+            "type": "VEC3",
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "default plastic",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.250980406999588,
+                    0.250980406999588,
+                    0.250980406999588,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.20000000298023224
+            }
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 5376,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5376,
+            "byteLength": 7824,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 13200,
+            "byteLength": 7824,
+            "byteStride": 12,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "insert_v1.bin",
+            "byteLength": 21024
+        }
+    ]
+}
